@@ -6,10 +6,12 @@
  * _putchar - prints a character
  * @c: input character
  *
- * Return: I
+ * Return: count of cgaracter 
  */
 int _putchar(char c)
 {
-	write(1, &c, 1);
-	return (1);
+	int r;
+
+	r = write(1, &c, 1);
+	return (r);
 }

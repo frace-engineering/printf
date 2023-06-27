@@ -10,7 +10,7 @@
  */
 int (*check_type(char c))(va_list ptr)
 {
-	int i, n;
+	int i;
 
 	check_t func[] = {
 		{'c', printchar},
@@ -18,7 +18,6 @@ int (*check_type(char c))(va_list ptr)
 		{'%', print_pcent}
 	};
 
-	n = 3;
 	i = 0;
 	while (i < 3)
 	{
@@ -28,6 +27,6 @@ int (*check_type(char c))(va_list ptr)
 		}
 		i++;
 	}
-	return (0);
+	return (NULL);
 }
 
