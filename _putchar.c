@@ -6,7 +6,7 @@
  * _putchar - prints a character
  * @c: input character
  *
- * Return: count of cgaracter 
+ * Return: count of cgaracter
  */
 int _putchar(char c)
 {

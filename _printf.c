@@ -3,7 +3,7 @@
 
 
 /**
- * _print - variadic function that prints formated output
+ * _printf - variadic function that prints formated output
  * @format: string of character format specifier
  *
  * Return: count of characters printed
@@ -14,8 +14,11 @@ int _printf(const char *format, ...)
 	int (*f)(va_list ptr);
 	int n;
 
+
 	va_start(ptr, format);
 	n = 0;
+	if (!format || (format[0] == '%' && !format[1]))
+		return (-1);
 	for (; *format; format++)
 	{
 		if (*format != '%')

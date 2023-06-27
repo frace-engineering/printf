@@ -2,7 +2,13 @@
 #define MAIN_H
 #include <stdarg.h>
 #include <stddef.h>
-typedef struct check {
+/**
+ * struct check - structure with two members
+ * @c: first member
+ * @f: function pointer
+ */
+typedef struct check
+{
 	char c;
 	int (*f)(va_list ptr);
 } check_t;

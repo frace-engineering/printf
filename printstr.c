@@ -19,6 +19,6 @@ int printstr(va_list ptr)
 		i = _puts(s);
 	else
 		i = _puts("(null)");
-	
+
 	return (i);
 }
