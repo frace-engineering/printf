@@ -5,7 +5,7 @@
  * print_num - prints numbers
  * @num: input number/digits
  *
- * Return: void 
+ * Return: void
  */
 void print_num(int num)
 {
