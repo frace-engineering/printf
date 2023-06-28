@@ -5,7 +5,6 @@
 /**
  * check_type - return a function pointer for specific character
  * @c: character to be checked
- * @ptr: variable argument list
  * Return: NULL
  */
 int (*check_type(char c))(va_list ptr)
@@ -15,7 +14,9 @@ int (*check_type(char c))(va_list ptr)
 	check_t func[] = {
 		{'c', printchar},
 		{'s', printstr},
-		{'%', print_pcent}
+		{'%', print_pcent},
+		{'i', print_i_d},
+		{'d', print_i_d}
 	};
 
 	i = 0;
