@@ -20,7 +20,7 @@ int (*check_type(char c))(va_list ptr)
 	};
 
 	i = 0;
-	while (i < 3)
+	while (i < 5)
 	{
 		if (func[i].c == c)
 		{
