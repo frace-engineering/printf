@@ -2,7 +2,7 @@
 
 
 /**
- * printnum - prints numbers
+ * print_num - prints numbers
  * @num: input number/digits
  *
  * Return: Always 0 (Success)

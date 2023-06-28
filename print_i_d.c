@@ -15,5 +15,5 @@ int print_i_d(va_list ptr)
 	j = count_digits(i);
 
 	print_num(i);
-	return(j);
+	return (j);
 }
