@@ -15,8 +15,8 @@ int (*check_type(char c))(va_list ptr)
 		{'c', printchar},
 		{'s', printstr},
 		{'%', print_pcent},
-		{'i', print_i_d},
-		{'d', print_i_d}
+		{'i', print_i},
+		{'d', print_d}
 	};
 
 	i = 0;
