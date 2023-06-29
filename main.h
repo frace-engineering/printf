@@ -22,6 +22,7 @@ int printstr(va_list ptr);
 int print_pcent(va_list ptr);
 int count_digits(int num);
 void print_num(int num);
+int print_int(int num);
 int print_i(va_list ptr);
 int print_d(va_list ptr);
 
