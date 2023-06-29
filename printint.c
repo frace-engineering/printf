@@ -28,6 +28,5 @@ int print_int(int num)
 		base *= 8;
 		num /= 10;
 	}
-	print_num(decimal);
-	return (0);
+	return (decimal);
 }
