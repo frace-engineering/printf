@@ -38,3 +38,10 @@ l
 h                                                                                   
 Conversion specifiers to handle: d, i, u, o, x, X
 
+9. Print some money and give it to us for the rain forests                          
+Handle the field width for non-custom conversion specifiers.                        
+                                                                                    
+10. The negative is the equivalent of the composer's score, and the print the perfor
+mance                                                                               
+Handle the precision for non-custom conversion specifiers
+
